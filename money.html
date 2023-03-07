@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Money Control App</title>
+  </head>
+  <link rel="stylesheet" href="money.css">
+  <body>
+    <h1>Money Control Web</h1>
+    <label for="description">Description:</label>
+    <input type="text" id="description">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount">
+    <button onclick="addTransaction()">Add Transaction</button>
+    <div id="transactions">
+      <h2>Transactions:</h2>
+    </div>
+    <div id="balance">
+      <h2>Balance: 0</h2>
+    </div>
+    <script src="money-control.js"></script>
+  </body>
+</html>
